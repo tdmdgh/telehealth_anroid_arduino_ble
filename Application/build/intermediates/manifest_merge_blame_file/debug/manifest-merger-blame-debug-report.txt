@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.bluetoothlegatt"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml
+10    <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
+11    <!--
+12 Declare this required feature if you want to make the app available to BLE-capable
+13    devices only.  If you want to make your app available to devices that don't support BLE,
+14    you should omit this in the manifest.  Instead, determine BLE capability by using
+15    PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE)
+16    -->
+17    <uses-feature
+17-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:13:5-15:35
+18        android:name="android.hardware.bluetooth_le"
+18-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:14:9-53
+19        android:required="true" />
+19-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:15:9-32
+20
+21    <uses-permission android:name="android.permission.BLUETOOTH" />
+21-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:17:5-68
+21-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:17:22-65
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+22-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:18:5-74
+22-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:18:22-71
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:19:5-81
+23-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:19:22-78
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:20:5-79
+24-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:20:22-76
+25    <uses-permission android:name="android.permission.SEND_SMS" />
+25-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:21:5-67
+25-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:21:22-64
+26
+27    <application
+27-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:22:5-41:19
+28        android:debuggable="true"
+29        android:icon="@drawable/medical_app"
+29-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:23:9-45
+30        android:label="@string/app_name"
+30-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:24:9-41
+31        android:testOnly="true"
+32        android:theme="@android:style/Theme.Holo.Light" >
+32-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:25:9-56
+33        <activity android:name="com.example.android.bluetoothlegatt.RegisterNumActivity" />
+33-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:26:9-66
+33-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:26:19-54
+34        <activity
+34-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:27:9-35:20
+35            android:name="com.example.android.bluetoothlegatt.DeviceScanActivity"
+35-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:28:13-47
+36            android:label="@string/app_name" >
+36-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:29:13-45
+37            <intent-filter>
+37-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:30:13-34:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:31:17-69
+38-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:31:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:33:17-77
+40-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:33:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.example.android.bluetoothlegatt.DeviceControlActivity" />
+43-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:36:9-59
+43-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:36:19-56
+44
+45        <service
+45-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:38:9-40:38
+46            android:name="com.example.android.bluetoothlegatt.BluetoothLeService"
+46-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:39:13-47
+47            android:enabled="true" />
+47-->D:\android-BluetoothLeGatt-master_16\Application\src\main\AndroidManifest.xml:40:13-35
+48    </application>
+49
+50</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-BluetoothLeGatt-master_16.iml" filepath="$PROJECT_DIR$/.idea/modules/android-BluetoothLeGatt-master_16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Application/android-BluetoothLeGatt-master_16.Application.iml" filepath="$PROJECT_DIR$/.idea/modules/Application/android-BluetoothLeGatt-master_16.Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Application/android-BluetoothLeGatt-master_16.Application.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Application/android-BluetoothLeGatt-master_16.Application.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Application/android-BluetoothLeGatt-master_16.Application.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Application/android-BluetoothLeGatt-master_16.Application.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Application/android-BluetoothLeGatt-master_16.Application.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Application/android-BluetoothLeGatt-master_16.Application.unitTest.iml" />
+    </modules>
+  </component>
+</project>
